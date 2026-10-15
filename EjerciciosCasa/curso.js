@@ -28,11 +28,14 @@ class Curso {
     return mejorAlumno.nombre;
   }
 
-  obtenerPorcentajeAprobados(){
+  obtenerPorcentajeAprobados() {
     let numAprobados = this.obtenerAprobados().length;
 
     let porcentaje = (numAprobados / this.alumnos.length) * 100;
 
     return porcentaje;
+  }
+  obtenerListaNombres() {
+    return this.alumnos.map(alumno => alumno.nombre);
   }
 }

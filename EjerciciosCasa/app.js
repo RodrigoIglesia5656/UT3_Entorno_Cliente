@@ -1,4 +1,4 @@
-/*let inventario = [];
+let inventario = [];
 inventario.push(new producto(1, "Lavadora", "Electrodomesticos", 300, 0));
 inventario.push(new producto(2, "Martillo", "Herramienta", 20, 7));
 inventario.push(new producto(3, "Plato", "Vajilla", 7, 20));
@@ -13,7 +13,7 @@ inventario.push(new producto(3, "Plato", "Vajilla", 7, 20));
   return hayStock;
 }*/
 
-/*function detectarSinStock(inventario) {
+function detectarSinStock(inventario) {
   return inventario.filter((producto) => producto.stock === 0);
 }
 
@@ -31,7 +31,7 @@ function buscarPorCodigo(inventario) {
 
 console.log("Valor total del invetario: ", calcularValorInventario(inventario));
 console.log("Productos sin stock:", detectarSinStock(inventario));
-console.log("Prducto encontrado: ", buscarPorCodigo(inventario));*/
+console.log("Prducto encontrado: ", buscarPorCodigo(inventario));
 
 let clase = new Curso("Desarrollo Web");
 clase.agregarAlumno("Jose", 2);
